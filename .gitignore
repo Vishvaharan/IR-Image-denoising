@@ -1,0 +1,45 @@
+# Dataset - too large for GitHub (~3GB)
+dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Model weights (can be large)
+# Comment out if you want to include small models
+# *.h5
+# *.pt
+# *.pth
+# *.ckpt
+# *.pkl
+
+# Results / outputs
+results/
+outputs/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+tmp/
+temp/
